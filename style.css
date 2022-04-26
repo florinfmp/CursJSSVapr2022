@@ -22,7 +22,8 @@ a {
   align-items: center;
   flex-direction: column;
   padding: 40px;
-  border-bottom: 1px solid rgba(0,0,0,0.05);
+  border-bottom: 3px solid rgba(0,0,0,0.05);
+  background-color: rgb(159, 236, 236);
 }
 
 .blog-heading {
@@ -33,6 +34,7 @@ a {
 }
 
 .blog-heading span {
+  font-size: 2rem;
   color: blue;
 }
 
@@ -48,6 +50,7 @@ a {
   align-items: center;
   margin: 20px 0px;
   flex-wrap: wrap;
+  border: 1px solid red;
 }
 
 .blog-box {
@@ -55,6 +58,7 @@ a {
   background-color: #ffffff;
   border: 1px solid #ececec;
   margin: 20px;
+  border: 1px solid blueviolet;
 }
 
 .blog-img img {
@@ -62,6 +66,7 @@ a {
   height: auto;
   object-fit: cover;
   object-position: center;
+  border: 1px solid rgb(19, 214, 52);
 }
 
 .blog-text {
@@ -69,17 +74,20 @@ a {
   display: flex;
   flex-direction: column;
   min-height: 230px;
+  border: 1px solid red;
 }
 
 .blog-text span {
   color: rgb(45, 45, 236);
   font-size: 0.9rem;
+  border: 1px solid orange;
 }
 
 .blog-text .blog-title {
   font-size: 1.3rem;
   font-weight: 500;
   color: #272727;
+  border: 1px solid green;
 }
 
 .blog-text p {
@@ -88,6 +96,7 @@ a {
   overflow: hidden;
   text-overflow: ellipsis;
   margin: 20px 0px;
+  border: 1px solid palevioletred;
 }
 
 .blog-text a {
@@ -115,7 +124,7 @@ a {
 }
 
 .blog-button:hover {
-  background: linear-gradient(to bottom, #ffffff 5%, #f6f6f6 100%);
+  background: linear-gradient(to bottom, #f6f6f6 5%, #ffffff 100%);
   background-color: #f6f6f6;
 }
 
